@@ -1,0 +1,55 @@
+﻿body{
+    background-color: lightgray;
+}
+div.header {
+    border: 8px solid black;
+    height:22vh;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*use box sizing to adjust padding without adjusting the width property*/
+    text-shadow: 1px 1px gray;
+}
+h1{
+    color: red;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+p.subhead{
+    color: greenyellow;
+    padding-left: 2.5%;
+}
+div.menudiv {
+    float:left;
+}
+ul{
+    background: lightgray;
+    padding-right: 20px;
+}
+pre{
+    text-shadow: 1px 1px gray;
+    clear:both;
+}
+tr:hover{
+    background-color: white;
+}
+div.bodydiv{
+    height:78vh;
+    padding-left: 12%;
+    background-image: url("../img/texture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

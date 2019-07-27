@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Naught Joe</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Joey Alvarez's web development portfolio"/>
+        <meta name="keywords" content="HTML,CSS,JavaScript,Java,mySQL,programming,coding,Joey,ALvarez,developer"/>
+        <meta name="author" content="Joey Alvarez"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <script src="js/myScript.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <!--img src = "img/header.jpg"-->
+            <h1> <!--style = "color: red"--> Hi! I'm Naught Joe.</h1>
+            <br>
+            <p class="subhead"> <!--style="color:greenyellow"--> You can call me Joey! </p>
+        </div>
+        <div>
+            <div class="menudiv">
+                <ul>
+                    <li title="The Home Page!">Home</li>
+                    <li title="A tougher Tetris."><a href="hexatris.htm">Hexatris</a></li>
+                    <li title="For doing math."><a href="calculator.htm">Calculator</a></li>
+                </ul>
+                <pre>
+         ^
+         |
+         |
+         |
+
+  try my other work
+                </pre>
+            </div>
+            <div class="bodydiv">
+                <br/>
+                <h2>Check out my sign up sheet.</h2>
+                <h4> I'll only ever send you a welcome email to show that it works. &lt3 </h4>
+                <form onsubmit="msg()"> <!--action = "/form.java "-->
+                    <table>
+                        <tr>
+                            <td>First Name:</td>
+                            <td> <input type="text" name="firstname"> </td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td> <input type="text" name="lastname"></td>
+                        </tr>
+                        <tr>
+                            <td>Email(optional):</td>
+                            <td> <input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>How'd you find me?</td>
+                            <td>
+                                <select name="ref">
+                                    <option value="resume">Resume</option>
+                                    <option value="linkedin">Linked-In</option>
+                                    <option value="theweb">The Web</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </td>
+                        <tr>
+                            <td>Where are you from?</td>
+                            <td>
+                                <select name="where">
+                                    <option value="select"> --Select One-- </option>
+                                    <optgroup label="New England">
+                                        <option value="Maine"> Maine </option>
+                                        <option value="Connnecticut"> Connecticut</option>
+                                    </optgroup>
+                                    <optgroup label="North East">
+                                        <option value="Pennsylvania">Pennsylvania</option>
+                                        <option value="Ohio">Ohio</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>    
+                    </table>    
+                    <p><button type="submit" id="submit">Submit</button></p>
+                </form> 
+                <div>
+                    <br/><br/>
+                    <p><a href="hexatris.htm"> Try Hexatris </p></a>
+                    <br/>
+                    <p><a href="calculator.htm"> Calculate </a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
