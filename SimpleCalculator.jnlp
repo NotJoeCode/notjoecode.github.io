@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<jnlp spec="1.0+"
+		codebase="https://github.com/NotJoeCode/SimpleCalculator/raw/master/out/artifacts/SimpleCalculator_jar/SimpleCalculator_jar.jar/"
+		href="SimpleCalculator.jnlp">
+	<information>
+		<title> Simple Calculator </title>
+		<vendor> notJoeCode </vendor>
+		<description> Simple Calculator</description>
+		<homepage href="http://notjoecode.yolasite.com"/>
+		<description kind="short"> Simple Calculator </description>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<j2se version="1.6+"
+			href="http://java.sun.com/products/autodl/j2se"/>
+		<jar href="SimpleCalculator.jar" main="true"/>
+	</resources>
+	<application-desc main-class="Main"/>
+</jnlp>
