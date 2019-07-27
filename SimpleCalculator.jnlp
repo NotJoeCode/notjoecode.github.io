@@ -2,7 +2,7 @@
 
 
 <jnlp spec="1.0+"
-		codebase="https://github.com/NotJoeCode/SimpleCalculator/raw/master/out/artifacts/SimpleCalculator_jar/SimpleCalculator_jar.jar/"
+		codebase="https://github.com/NotJoeCode/notjoecode.github.io/raw/master/"
 		href="SimpleCalculator.jnlp">
 	<information>
 		<title> Simple Calculator </title>
